@@ -5,6 +5,10 @@ html {
 	box-sizing: border-box; 
 }
 
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
 *,*::after,*::before {
 	box-sizing: inherit;
 }
@@ -12,6 +16,10 @@ html {
 body {
 	min-width: 320px;
 	overflow-x: hidden;
+	font-family: 'RobotoCondensed-Regilar', 'Arial', 'sans-serif';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .container {
@@ -102,5 +110,24 @@ body {
 @media (min-width: 1440px) {
 	.menu__btn {
 		margin-right: 90px;
+	}
+}
+
+.head {
+	background-image: url(/images/bg-slider.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	min-height: 193px;
+}
+
+.top-slider {
+	background: rgba(33, 33, 33, 0.5);
+	&__item {
+		color: #fff;
+		text-align: center;
+	}
+	&__title {
+
 	}
 }
