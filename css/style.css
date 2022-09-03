@@ -143,4 +143,12 @@ body {
 .top-slider__item {
   color: #fff;
   text-align: center;
+}
+.top-slider__title {
+  font-family: "RobotoCondensed-Regilar";
+  line-height: 28px;
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 36px 0 28px;
 }/*# sourceMappingURL=style.css.map */
